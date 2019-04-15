@@ -30,6 +30,9 @@ REACH Extends Arm Control for Humans is Myo controlled prothestic arm designed f
    - `/extraction`         -- Code to extract feature from each data file
    - `Multilabel_linearSVC_MyoSynapsETS.ipynb`   --Traning and testing pipeline using Jupyter
 
+**Parallel Project to be united in the future**
+https://github.com/ClubSynapsETS/HandGestureRecongnition
+
 
 ## Getting Started
 **Hardware setup** <br>
