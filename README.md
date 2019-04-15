@@ -50,20 +50,21 @@ A quick guide on a Linux platform can be followed from here. For a full guide on
 https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#step-1-set-up-the-toolchain
 
 
-Open Terminal, and run the following commands:
+Open Terminal, and run the following commands: <dr>
     - mkdir ~/esp
     - cd ~/esp
     - git clone --recursive https://github.com/espressif/esp-idf.git
 
-Setup IDF environment variable
+Setup IDF environment variable <dr>
     - export IDF_PATH=~/esp/esp-idf
 
-Install Python requirements
+Install Python requirements <dr>
     - python -m pip install --user -r $IDF_PATH/requirements.txt
 
-Get the project and program the microcontroller
+Get the project and program the microcontroller <dr>
     - cd ~/esp
-    - git clone https://github.com/ #TODO
+    - git clone https://github.com/Synapse/Project-EMP.git
+    - cd Project-EMP
     - make menuconfig
         - Serial flasher config
             - /dev/ttyUSB0
