@@ -51,17 +51,21 @@ https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#ste
 
 
 Open Terminal, and run the following commands: <dr>
+
     - mkdir ~/esp
     - cd ~/esp
     - git clone --recursive https://github.com/espressif/esp-idf.git
 
 Setup IDF environment variable <dr>
+
     - export IDF_PATH=~/esp/esp-idf
 
 Install Python requirements <dr>
+
     - python -m pip install --user -r $IDF_PATH/requirements.txt
 
 Get the project and program the microcontroller <dr>
+
     - cd ~/esp
     - git clone https://github.com/Synapse/Project-EMP.git
     - cd Project-EMP

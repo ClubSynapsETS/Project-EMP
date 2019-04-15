@@ -78,14 +78,13 @@ None :5             || size = 268
 ## SVM
 
 Training the support vector machine algorithm is a simple task using python. Instead, here is the classification report and the confusion for a linear support vector classifier passed trough standard scaler. 
-#TODO
 
-    0    1     2     3     4
-0   2062 15    29    31    2 <br>
-1   22   1928  2     6     1 <br>
-2   57   15    1966  161   1 <br>
-3   161  0     80    2281  0 <br>
-4   2    1     0     0     2454
+Here is a plot of the cofusion matrix of the function testing our model. <dr>
+
+![](Docs/confusion_matrix.png)
+
+
+These are statistics success score fo the classifier.
  
               precision    recall  f1-score   support
 
